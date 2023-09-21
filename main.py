@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from src.get_columns import CsvExtractor
+from src.extract_columns import CsvExtractor
 
 
 if __name__ == "__main__":

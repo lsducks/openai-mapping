@@ -4,7 +4,7 @@ from abc import abstractmethod
 from pathlib import Path
 
 
-class DataExtractor():
+class DataExtractor:
     @abstractmethod
     def read(self) -> None:
         pass
@@ -37,7 +37,6 @@ class CsvExtractor(DataExtractor):
             with open(file, 'r') as f:
                 csv_reader = csv.reader(f, delimiter=self.sep)
                 self.sources_columns[name] = csv_reader.__next__()
-
 
     def save(self):
         sources_file = self.extracted_path / 'sources_columns.yaml'
