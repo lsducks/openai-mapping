@@ -1,0 +1,15 @@
+Date: Ключ, наиболее подходящий для следующего текста, это ключ "Date_of_Policy",
+  так как текст рассказывает о дате создания политики, которая представлена в формате
+  день/месяц/год, аналогично значению, описанному в словаре для этого ключа.
+EmployeeName: 'Найденное сходство: ''FullName''
+
+
+  Столбец данных "EmployeeName" содержит имена сотрудников компании. В данном столбце
+  приведены следующие имена: Jennifer Pane, Jane Smith, Alice Johnson, Carol Martinez,
+  David Anderson, Eva Thomas, Frank Jackson, Abby Single. Эти имена могут быть использованы
+  для идентификации с'
+Plan: 'Выбранный ключ из словаря: ''Insurance_Type''
+
+  Схожее значение: "Gold", "Silver", "Bronze"'
+PolicyNumber: PolicyNumber
+Premium: Monthly_Premium
